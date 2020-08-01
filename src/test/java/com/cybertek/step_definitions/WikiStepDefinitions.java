@@ -28,9 +28,9 @@ public class WikiStepDefinitions {
     }
 
     @Then("User should see {string} in the wiki title")
-    public void user_should_see_in_the_wiki_title(String expectedInTitle) {
+    public void user_should_see_in_the_wiki_title(String expectedInTitle) throws InterruptedException {
         String actualTitle = Driver.getDriver().getTitle();
-
+        Thread.sleep(2000);
         Assert.assertTrue(actualTitle.contains(expectedInTitle));
 
     }
@@ -46,15 +46,13 @@ public class WikiStepDefinitions {
 
     @Then("User should see {string} in the image header")
     public void userShouldSeeInTheImageHeader(String arg) throws InterruptedException {
-
+        Thread.sleep(2000);
         String actualHeader = wikiSearchPage.imageHeaderAfterSearch.getText();
         String expectedHeader = arg;
         Thread.sleep(2000);
         Assert.assertEquals(actualHeader, expectedHeader);
 
     }
-
-
 
 
 //    @When("User searches {string} in the wiki {int} search page")
