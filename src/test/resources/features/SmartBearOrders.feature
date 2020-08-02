@@ -1,3 +1,4 @@
+@regression
 @smartOrder
 Feature: Smartbear order placing feature
   Agile Story : When user is on the Order page, user should be able to place

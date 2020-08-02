@@ -1,3 +1,4 @@
+@regression
 @smoke
 @wiki
 Feature: Wiki title and search verifications

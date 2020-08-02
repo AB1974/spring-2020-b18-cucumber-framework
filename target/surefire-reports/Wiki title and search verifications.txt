@@ -1,0 +1,204 @@
+-------------------------------------------------------------------------------
+Test set: Wiki title and search verifications
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 20, Skipped: 0, Time elapsed: 1,509.816 s <<< FAILURE! - in Wiki title and search verifications
+Wiki title and search verifications.Search functionality title verification  Time elapsed: 151.294 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cybertek.step_definitions.WikiStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality title verification  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #1  Time elapsed: 151.231 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cybertek.step_definitions.WikiStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #1  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #2  Time elapsed: 150.971 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cybertek.step_definitions.WikiStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #2  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #3  Time elapsed: 150.611 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cybertek.step_definitions.WikiStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #3  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #4  Time elapsed: 150.614 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cybertek.step_definitions.WikiStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #4  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #5  Time elapsed: 150.924 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cybertek.step_definitions.WikiStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #5  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #6  Time elapsed: 151.07 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cybertek.step_definitions.WikiStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #6  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #7  Time elapsed: 151.404 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cybertek.step_definitions.WikiStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #7  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #8  Time elapsed: 151.062 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cybertek.step_definitions.WikiStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #8  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #9  Time elapsed: 150.626 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.cybertek.step_definitions.WikiStepDefinitions
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+
+Wiki title and search verifications.Search functionality header verification #9  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Aylins-MacBook-Pro.local', ip: 'fe80:0:0:0:11:e9b6:6069:e914%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: Driver
+Caused by: java.net.ConnectException: Failed to connect to /18.206.13.27:4444
+Caused by: java.net.ConnectException: Operation timed out
+

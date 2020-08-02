@@ -1,4 +1,4 @@
-
+@regression
 @login
 Feature: Login feature
   CBT-25: As a user, I should be able to login with correct credentials

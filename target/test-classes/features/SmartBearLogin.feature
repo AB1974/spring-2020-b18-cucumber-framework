@@ -1,4 +1,4 @@
-
+@regression
 @smartbearLogin
 Feature: Smartbear login feature verifications
 

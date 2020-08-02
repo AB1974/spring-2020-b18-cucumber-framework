@@ -1,4 +1,4 @@
-
+@regression
 @etsyAll
 Feature: Etsy search feature
   Agile story: User should be able to enter search terms and see

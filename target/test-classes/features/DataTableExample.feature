@@ -1,4 +1,4 @@
-
+@regression
 Feature: Example of how to implement data table
 
 
