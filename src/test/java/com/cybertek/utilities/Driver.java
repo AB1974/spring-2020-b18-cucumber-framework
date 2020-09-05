@@ -6,25 +6,29 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.remote.BrowserType;
-import org.openqa.selenium.remote.CapabilityType;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.logging.LogManager;
+
 
 public class Driver {
 
-    //1-Make constructor private
+    /**
+     * 1-Make constructor private
+     */
+
     private Driver() {
     }
 
-    //InhertirableThreadLocal-->this is like a container,bag pool
-    //   IN this pool we can have seperate objects for each thread
-    //driver class will provide seperate webdriver object per thread
+    /**
+     * InheritableThreadLocal-->this is like a container,bag pool
+     * IN this pool we can have separate objects for each thread
+     * driver class will provide separate webdriver object per thread
+     */
     private static InheritableThreadLocal<WebDriver> driver = new InheritableThreadLocal<>();
+
+
     // private static WebDriver driver;
 
     public static WebDriver getDriver() {
@@ -56,11 +60,11 @@ public class Driver {
                     try {
                         //same as ChromeOptions
                         //to request selenium Grid to run test on firefox
-                        //   DesiredCapabilities desiredCapabilities=new DesiredCapabilities();
-                        //    desiredCapabilities.setCapability(CapabilityType.BROWSER_NAME, BrowserType.CHROME);
+                        //DesiredCapabilities desiredCapabilities=new DesiredCapabilities();
+                        //desiredCapabilities.setCapability(CapabilityType.BROWSER_NAME, BrowserType.CHROME);
                         //desiredCapabilities.setPlatform(Platform.LINUX)
                         ChromeOptions chromeOptions = new ChromeOptions();
-                        URL url = new URL("http://18.206.13.27:4444/wd/hub");
+                        URL url = new URL("http://54.210.140.249:4444/wd/hub");
                         driver.set(new RemoteWebDriver(url, chromeOptions));
                     } catch (MalformedURLException e) {
                         e.printStackTrace();
@@ -71,7 +75,7 @@ public class Driver {
                     try {
                         //to request selenium Grid to run test on firefox
                         FirefoxOptions firefoxOptions = new FirefoxOptions();
-                        URL url = new URL("http://18.206.13.27:4444/wd/hub");
+                        URL url = new URL("http://54.210.140.249:4444/wd/hub");
                         driver.set(new RemoteWebDriver(url, firefoxOptions));
                     } catch (MalformedURLException e) {
                         e.printStackTrace();

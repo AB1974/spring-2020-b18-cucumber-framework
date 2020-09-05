@@ -1,4 +1,4 @@
-@regression
+@regression1
 Feature: Search
   Agile Story: As a user, I should be able to search when I am on Google search page.
 
@@ -13,12 +13,6 @@ Feature: Search
       | apple       | apple         |
       | kiwi        | kiwi          |
       | orange      | orange        |
-      | apple       | apple         |
-      | banana      | banana        |
-      | broccoli    | broccoli      |
-      | cherries    | cherries      |
-      | red apple   | red apple     |
-      | green apple | green apple   |
 
 
 
